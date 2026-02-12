@@ -1,6 +1,12 @@
 {
     "version": "1.0.0",
     "thumbnail": "assets/thumbnail.png",
-    "id": "ethanb_HomeBridge",
-    "name": "HomeBridge Controller"
+    "id": "com_ethanbanker_HomeBridge",
+    "name": "HomeBridge Controller",
+    "app-version": "1.4.11-beta",
+    "descriptions": {
+    "en_US": "Homebridge light control"
+    },
+    "author": "ethanbanker",
+    "github": "https://github.com/ethanbanker/HomeBridge-StreamController-Plugin"
 }
