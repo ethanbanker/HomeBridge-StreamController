@@ -3,25 +3,25 @@ from src.backend.PluginManager.PluginBase import PluginBase
 from src.backend.PluginManager.ActionHolder import ActionHolder
 
 # Import actions
-from .actions.SimpleAction.SimpleAction import SimpleAction
+from .actions.ToggleLight.ToggleLight import ToggleLight
 
-class PluginTemplate(PluginBase):
+class HomeBridgePlugin(PluginBase):
     def __init__(self):
         super().__init__()
 
         ## Register actions
-        self.simple_action_holder = ActionHolder(
+        self.toggle_light_holder = ActionHolder(
             plugin_base = self,
-            action_base = SimpleAction,
-            action_id = "dev_core447_Template::SimpleAction", # Change this to your own plugin id
-            action_name = "Simple Action",
+            action_base = ToggleLight,
+            action_id = "ethanb_HomeBridge::ToggleLight",
+            action_name = "Toggle Light",
         )
-        self.add_action_holder(self.simple_action_holder)
+        self.add_action_holder(self.toggle_light_holder)
 
         # Register plugin
         self.register(
-            plugin_name = "Template",
-            github_repo = "https://github.com/StreamController/PluginTemplate",
+            plugin_name = "HomeBridge",
+            github_repo = "https://github.com/ethanb/HomeBridge-StreamController",
             plugin_version = "1.0.0",
-            app_version = "1.1.1-alpha"
+            app_version = "1.5.0"
         )

@@ -1,9 +1,9 @@
 {
     "generic": {
-        "copyright": "",
-        "original-url": "",
-        "license": "",
-        "license-url": "",
-        "description": ""
+        "copyright": "2026 Ethan B",
+        "original-url": "https://github.com/ethanb/HomeBridge-StreamController",
+        "license": "GNU General Public License v3.0",
+        "license-url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "description": "A StreamController plugin for controlling Homebridge-compatible smart home devices through Stream Deck buttons"
     }
 }

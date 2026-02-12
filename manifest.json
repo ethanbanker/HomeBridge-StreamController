@@ -1,6 +1,6 @@
 {
-    "version": "",
-    "thumbnail": "",
-    "id": "",
-    "name": ""
+    "version": "1.0.0",
+    "thumbnail": "assets/thumbnail.png",
+    "id": "ethanb_HomeBridge",
+    "name": "HomeBridge Controller"
 }
